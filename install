@@ -62,9 +62,9 @@ fi
 
 echo -e -n "${COL_WHITE}Generating scripts...${COL_RESET}"
 
-MINGW32_SHELL="mingw32_shell.bat"
-MINGW64_SHELL="mingw64_shell.bat"
-MSYS2_SHELL="msys2_shell.bat"
+MINGW32_SHELL="msys2_shell.cmd -mingw32"
+MINGW64_SHELL="msys2_shell.cmd -mingw64"
+MSYS2_SHELL="msys2_shell.cmd -msys"
 
 MINGW32_HERE="mingw32_here.bat"
 MINGW64_HERE="mingw64_here.bat"
